@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: dynamic-thread-pool-admin
+  profiles:
+    active: dev

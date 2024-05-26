@@ -12,6 +12,7 @@ thread:
         block-queue-size: 5000
         policy: CallerRunsPolicy
 
+
 # 动态线程池管理配置
 dynamic:
   thread:
@@ -23,9 +24,3 @@ dynamic:
         host: 127.0.0.1
         # redis port
         port: 6379
-
-# 日志
-logging:
-  level:
-    root: info
-  config: classpath:logback-spring.xml

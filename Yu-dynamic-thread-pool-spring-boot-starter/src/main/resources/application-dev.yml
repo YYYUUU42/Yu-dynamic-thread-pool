@@ -1,6 +1,3 @@
-server:
-  port: 8201
-
 # 线程池配置
 thread:
   pool:
@@ -24,8 +21,3 @@ dynamic:
         # redis port
         port: 6379
 
-# 日志
-logging:
-  level:
-    root: info
-  config: classpath:logback-spring.xml
